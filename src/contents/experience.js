@@ -1,67 +1,81 @@
 /*
-*   date - string
-*   title - string
-*   link - URL string
-*   materials - [{ 
-*       type - icon
-*       link - URL string
-*   }]
-*   descriptions - [string]
-*   skills - [
-*       [string] - 1 array/line
-*   ]
-*   picture - file path
-*/
+ *   date - string
+ *   title - string
+ *   link - URL string
+ *   materials - [{
+ *       type - icon
+ *       link - URL string
+ *   }]
+ *   descriptions - [string]
+ *   skills - [
+ *       [string] - 1 array/line
+ *   ]
+ *   picture - file path
+ */
 
 // import { faBook } from "@fortawesome/free-solid-svg-icons";
 
-import sportAnalyzer from "./../asset/sportanalyzer.webp"
-
 export const data = [
-    {
-        date: "2019-2022",
-        title: "Fullstack · Sport Analysis System",
-        link: "https://medium.com/@KDeelert/how-i-built-soccer-analyzer-tool-eng-55bf8a473248",
-        materials: [
-            // { type: faBook, link: "https://medium.com/@KDeelert/how-i-built-soccer-analyzer-tool-eng-55bf8a473248" },
-        ],
-        descriptions: [
-            "· Developed a bot for web scraping to extract various statistics and real-time odds.",
-            "· Developed a real-time statistical analysis system for football betting and investing, which conducted extensive data analysis over four years, showing consistent positive returns on selected matches that were placed by selected conditions.",
-            "· Designed and implemented a customizable condition system to identify betting opportunities that are capable of generating 3,000% of the average annual profit.",
-            "· Designed and implemented an automated betting system.",
-            "· Designed and Implemented a responsive web application for displaying real-time statistics and configuring the automated betting system.",
-            "· Utilized load balancing and reverse proxy to ensure smooth system performance and handle increased user traffic.",
-            "· Developed a notification system to send alerts to the Line application when there are matches that meet the specified conditions.",
-        ],
-        skills: [
-            ["React", "Redux-Saga", "Antd"],
-            ["Playwright", "Nginx", "NodeJS", "MongoDB"]
-        ],
-        picture: sportAnalyzer,
-    },
-    {
-        date: "2013-2018",
-        title: "Police Officer",
-        link: "",
-        materials: [
-        ],
-        descriptions: [],
-        skills: [],
-        picture: "",
-    },
-    {
-        date: "2012-2012",
-        title: "Middleware System Engineer · IBM",
-        link: "",
-        materials: [
-        ],
-        descriptions: [
-            "· Implemented and on-going support Middleware infrastructure for internal project.",
-        ],
-        skills: [
-            ["IBM Websphere", "Linux"],
-        ],
-        picture: "",
-    },
+  {
+    date: "2024",
+    title: "Junior Software Developer Cohort 7 [ Bootcamp ]",
+    link: "https://kxinnovation.com/genkx-2/",
+    materials: [
+      // { type: faBook, link: "https://medium.com/@KDeelert/how-i-built-soccer-analyzer-tool-eng-55bf8a473248" },
+    ],
+    descriptions: [
+      "· Acquired skills in React for front-end, Node.js for back-end, and MongoDB for database management",
+      "· Responsibilities in project management positions included the utilization of Agile and Scrum methodologies to oversee projects from inception through deployment.",
+      "· Served as the UX/UI lead in a team, overseeing the design and development processes for creating Web application.",
+    ],
+    skills: [
+      [
+        "HTML",
+        "CSS",
+        "Tailwindcss",
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "SQL",
+        "AI",
+        "Prompt engineering",
+      ],
+      [
+        "Growth mindset",
+        "Teamwork",
+        "Proactiveness",
+        "Critical thinking",
+        "Time management",
+        "Problem solving",
+      ],
+    ],
+    picture: "",
+  },
+  {
+    date: "2023-2024",
+    title:
+      "Self-learning, Programming language (WeStride Institute of Technology)",
+    link: "https://www.we-stride.com/",
+    materials: [],
+    descriptions: [
+      "· Developed expertise in HTML, CSS, and JavaScript, applying these skills to create responsive websites project.",
+      "· Enhanced algorithm skills through consistent practice with exercises while studying comprehensive documentation.",
+    ],
+    skills: [
+      [
+        "HTML",
+        "CSS",
+        "Tailwindcss",
+        "JavaScript",
+        "React.js",
+        "Git",
+        "Algorithm",
+        "AI",
+        "Prompt engineering",
+      ],
+      ["Figma", "Photoshop", "Illustrator", "Premiere Pro", "Lightroom"],
+    ],
+    picture: "",
+  },
 ];

@@ -1,9 +1,10 @@
-import fileResume from "../asset/kraisorn_deelert_resume.pdf";
+import fileResume from "../asset/CV_Watsuphol_Software_Developer.pdf";
 
 export const data = {
-    name: "Kraisorn Deelert",
-    title: "Software Developer · between jobs",
-    caption: "From concept to reality, bridging the gap with code, transforming ideas into tangible digital solutions.",
-    btnText: "View Resume",
-    link: fileResume,
+  name: "Watsuphol Sinchanachai",
+  title: "Software Developer",
+  caption:
+    "Passionate about continuous learning and skilled in coding. Ready to embrace new challenges and develop innovative software solutions.",
+  btnText: "View Resume",
+  link: fileResume,
 };

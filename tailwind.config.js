@@ -3,10 +3,10 @@
 function withOpacity(varName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
-      return `rgba(var(${varName}),${opacityValue})`
+      return `rgba(var(${varName}),${opacityValue})`;
     }
-    return `var(${varName})`
-  }
+    return `var(${varName})`;
+  };
 }
 
 module.exports = {
@@ -15,19 +15,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryTitle: 'var(--color-primary-title)',
-        primarySubTitle: 'var(--color-primary-subtitle)',
-        primaryHeader: 'var(--color-primary-header)',
-        primaryContent: 'var(--color-primary-content)',
-        primarySubContent1: 'var(--color-primary-subcontent1)',
-        primarySubContent2: withOpacity('--color-primary-subcontent2'),
-        primaryBg: 'var(--color-primary-bg)',
+        primaryTitle: "#00B4D8",
+        primarySubTitle: "#4C5958",
+        primaryHeader: "var(--color-primary-header)",
+        primaryContent: "var(--color-primary-content)",
+        primarySubContent1: "var(--color-primary-subcontent1)",
+        primarySubContent2: withOpacity("--color-primary-subcontent2"),
+        primaryBg: "var(--color-primary-bg)",
       },
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif']
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
-
+};

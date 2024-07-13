@@ -1,99 +1,121 @@
 /*
-*   date - string
-*   title - string
-*   link - URL string
-*   materials - [{ 
-*       type - icon
-*       link - URL string
-*   }]
-*   descriptions - [string]
-*   skills - [
-*       [string] - 1 array/line
-*   ]
-*   picture - file path
-*/
+ *   date - string
+ *   title - string
+ *   link - URL string
+ *   materials - [{
+ *       type - icon
+ *       link - URL string
+ *   }]
+ *   descriptions - [string]
+ *   skills - [
+ *       [string] - 1 array/line
+ *   ]
+ *   picture - file path
+ */
 
-import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faBook } from "@fortawesome/free-solid-svg-icons";
-
-import picAxieBot from "../asset/axiebot.png";
-import picLittleLemon from "../asset/littlelemon.png";
-import picSocialMern from "../asset/social_mern.png";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const data = [
-    {
-        date: "Oct 2021-hightlight",
-        title: "Automated Trading Bot - Axie",
-        link: "https://medium.com/@KDeelert/how-i-made-100k-in-a-month-with-axie-infinity-77cca8e9b29f",
-        materials: [
-            { type: faBook, link: "https://medium.com/@KDeelert/how-i-made-100k-in-a-month-with-axie-infinity-77cca8e9b29f" }
-        ],
-        descriptions: [
-            "· Designed and developed a trading bot for Axie Infinity, a popular NFT game, to automate the buying and selling process of in-game assets.",
-            "· Designed and Implemented a user-friendly interface for monitoring data.",
-            "· Utilized web3 technology to connect to the Ronin blockchain and retrieve real-time trading data.",
-            "· Implemented data analysis algorithms to identify profitable opportunities by analyzing sales data, average selling prices, and market trends.",
-            "· Pre-defined trading strategies based on Axie models' sales frequency, aiming for profit margins ranging from 10% to 50%",
-        ],
-        skills: [
-            ["Web3", "Puppeteer", "Nginx", "NodeJS", "MongoDB"],
-        ],
-        picture: picAxieBot,
-    },
-    {
-        date: "Jun 2023",
-        title: "Portfolio V2",
-        link: "https://blackboy96.xyz/",
-        materials: [
-            { type: faGithub, link: "https://github.com/tOxicV4p0r/portfolio-v2" },
-            { type: faYoutube, link: "https://youtu.be/DOUP5gwk2jI" },
-            { type: faBook, link: "https://medium.com/@KDeelert/how-i-built-portfolio-website-945508dd9637" },
-        ],
-        descriptions: ["· A simple and minimalist portfolio for developers built with React and TailwindCSS, designed to be clean and fast."],
-        skills: [
-            ["React", "TailwindCSS"],
-        ],
-        picture: "https://github.com/tOxicV4p0r/portfolio-v2/raw/main/static/demo.gif?raw=true",
-    },
-    {
-        date: "Jun 2023",
-        title: "Fashion Ecommerce",
-        link: "https://clientecommer-nhvl2sce2q-as.a.run.app/",
-        materials: [
-            { type: faGithub, link: "https://github.com/tOxicV4p0r/FULLSTACK-React-Ecommerce" },
-        ],
-        descriptions: ["· The project serves as an opportunity for me to deepen my understanding of React, Starpi CMS backend, and setting up a payment system with Stripe."],
-        skills: [
-            ["React", "MUI", "Starpi", "Stripe"],
-        ],
-        picture: 'https://github.com/tOxicV4p0r/FULLSTACK-React-Ecommerce/blob/main/static/ecommergif.gif?raw=true',
-    },
-    {
-        date: "Jun 2023",
-        title: "Little Lemon restaurant",
-        link: "https://little-lemon-image-nhvl2sce2q-uc.a.run.app/",
-        materials: [
-            { type: faGithub, link: "https://github.com/tOxicV4p0r/little-lemon/" },
-        ],
-        descriptions: ["· This project is part of the Meta Front-End Developer Capstone final project assessment and focuses solely on reservation functionality."],
-        skills: [
-            ["React"],
-        ],
-        picture: picLittleLemon,
-    },
-    {
-        date: "May 2023",
-        title: "Social Platform Demo",
-        link: "https://social-mern-image-nhvl2sce2q-as.a.run.app/",
-        materials: [
-            { type: faGithub, link: "https://github.com/tOxicV4p0r/social_mern_edroh/" },
-            { type: faYoutube, link: "https://youtu.be/BdgSbmS4_qg" },
-        ],
-        descriptions: ["· This demo project is based on EdRoh's tutorial video on Youtube. I have fixed some bugs and added several features."],
-        skills: [
-            ["React", "Redux", "MUI"],
-            ["NodeJS", "MongoDB"],
-        ],
-        picture: picSocialMern,
-    }
+  {
+    date: "Jul 2024",
+    title: "Puey Puey E-Commerce (Web application)",
+    link: "https://eotd-front-end-ps1z.vercel.app/",
+    materials: [
+      {
+        type: faGithub,
+        link: "https://github.com/orgs/JSD7-EOTD/repositories",
+      },
+    ],
+    descriptions: [
+      "· Market Research and Application Development: Researched the pet humanization trend in Thailand and developed a web application based on user personas derived from data provided by Mahidol University's Marketing Faculty.",
+      "· UX/UI Design and Implementation: Designed a user-friendly UX/UI by leveraging detailed persona research, ensuring an intuitive user experience and consistent design elements to simplify processes and highlight key information.",
+      "· Full-Stack Development: Utilized the MERN stack (MongoDB, Express.js, React.js, Node.js) to build web applications, focusing on front-end UX/UI optimization and seamless back-end integration for efficient data management, payment processing, and dashboard functionalities",
+      "· Project Management and Team Collaboration: Managed team projects using Trello and Stack, fostering a cooperative work environment with regular meetings, clear communication, and well-defined tasks to ensure smooth project progress.",
+    ],
+    skills: [["React"]],
+    picture: "",
+  },
+  {
+    date: "Jul 2024",
+    title: "Booking Hotels (Web application)",
+    link: "",
+    materials: [
+      {
+        type: faGithub,
+        link: "https://github.com/Watsuphol/Booking-Apps",
+      },
+    ],
+    descriptions: [
+      "· Implemented robust CRUD (Create, Read, Update, Delete) functionality for booking data, leveraging Express.js and Node.js to establish a seamless connection with a MongoDB database.",
+      "· Designed and developed a user-centric interface with React.js and CSS, ensuring a smooth, intuitive user experience.",
+    ],
+    skills: [["React"]],
+    picture: "",
+  },
+  {
+    date: "May 2024",
+    title: "Account Calculator (Mini Project)",
+    link: "https://mini-project-account-cal.vercel.app/",
+    materials: [
+      {
+        type: faGithub,
+        link: "https://github.com/Watsuphol/MINI-PROJECT-ACCOUNT-CAL",
+      },
+    ],
+    descriptions: [
+      "· Developed a web application for managing personal finances, allowing users to track expenses, and incomes, and calculate account balances.",
+    ],
+    skills: [["React"]],
+    picture: "",
+  },
+  {
+    date: "May 2024",
+    title: "CRUD (Mini Project)",
+    link: "https://39-mc-react.vercel.app/",
+    materials: [
+      {
+        type: faGithub,
+        link: "https://github.com/Watsuphol/39-Mc-react",
+      },
+    ],
+    descriptions: [
+      "· Connect API by RESTful method, utilizing AXIOS library to CREATE (POST), READ (GET), DELETE (DELETE) data from API Doc.",
+      "· Add validation for create form in admin panel.",
+      "· Design and implement UPDATE (PUT) form in admin panel, connect API is useful.",
+    ],
+    skills: [["React"]],
+    picture: "",
+  },
+  {
+    date: "Apr 2024",
+    title: "Shopping Cart (Mini Project)",
+    link: "https://39-mc-js.vercel.app/",
+    materials: [
+      {
+        type: faGithub,
+        link: "https://github.com/Watsuphol/39-MC-JS",
+      },
+    ],
+    descriptions: [
+      "· The project features functionalities like adding items to the cart, updating quantities, and checking out.",
+    ],
+    skills: [["HTML", "CSS", "JavaScript"]],
+    picture: "",
+  },
+  {
+    date: "Apr 2024",
+    title: "Colmar (Mini Project)",
+    link: "https://colmar-39-watsuphol-mc.vercel.app/",
+    materials: [
+      {
+        type: faGithub,
+        link: "https://github.com/Watsuphol/MINI-PROJECT-COLMAR39",
+      },
+    ],
+    descriptions: [
+      "· Created responsive layouts using media queries and flexible grids, emphasizing the importance of adaptability to ensure optimal user experiences across various devices.",
+    ],
+    skills: [["HTML", "CSS"]],
+    picture: "",
+  },
 ];

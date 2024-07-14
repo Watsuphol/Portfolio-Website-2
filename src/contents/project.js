@@ -76,7 +76,7 @@ export const data = [
   },
   {
     date: "May 2024",
-    title: "CRUD (Mini Project)",
+    title: "Admin Dashboard (Mini Project)",
     link: "https://39-mc-react.vercel.app/",
     materials: [
       {

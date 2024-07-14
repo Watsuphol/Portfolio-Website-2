@@ -15,6 +15,12 @@
 
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
+import accout from "../asset/ac.gif";
+import colmar from "../asset/CR.gif";
+import PP from "../asset/PP.gif";
+import react from "../asset/React.gif";
+import shopping from "../asset/shop.gif";
+
 export const data = [
   {
     date: "Jul 2024",
@@ -33,7 +39,7 @@ export const data = [
       "· Project Management and Team Collaboration: Managed team projects using Trello and Stack, fostering a cooperative work environment with regular meetings, clear communication, and well-defined tasks to ensure smooth project progress.",
     ],
     skills: [["React"]],
-    picture: "",
+    picture: PP,
   },
   {
     date: "Jul 2024",
@@ -66,7 +72,7 @@ export const data = [
       "· Developed a web application for managing personal finances, allowing users to track expenses, and incomes, and calculate account balances.",
     ],
     skills: [["React"]],
-    picture: "",
+    picture: accout,
   },
   {
     date: "May 2024",
@@ -84,7 +90,7 @@ export const data = [
       "· Design and implement UPDATE (PUT) form in admin panel, connect API is useful.",
     ],
     skills: [["React"]],
-    picture: "",
+    picture: react,
   },
   {
     date: "Apr 2024",
@@ -100,7 +106,7 @@ export const data = [
       "· The project features functionalities like adding items to the cart, updating quantities, and checking out.",
     ],
     skills: [["HTML", "CSS", "JavaScript"]],
-    picture: "",
+    picture: shopping,
   },
   {
     date: "Apr 2024",
@@ -116,6 +122,6 @@ export const data = [
       "· Created responsive layouts using media queries and flexible grids, emphasizing the importance of adaptability to ensure optimal user experiences across various devices.",
     ],
     skills: [["HTML", "CSS"]],
-    picture: "",
+    picture: colmar,
   },
 ];

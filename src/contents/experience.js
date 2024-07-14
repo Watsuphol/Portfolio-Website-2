@@ -14,6 +14,8 @@
  */
 
 // import { faBook } from "@fortawesome/free-solid-svg-icons";
+import Genkx from "../asset/GENkx.png";
+import Westride from "../asset/westride.gif";
 
 export const data = [
   {
@@ -50,7 +52,7 @@ export const data = [
         "Problem solving",
       ],
     ],
-    picture: "",
+    picture: Genkx,
   },
   {
     date: "2023-2024",
@@ -76,6 +78,6 @@ export const data = [
       ],
       ["Figma", "Photoshop", "Illustrator", "Premiere Pro", "Lightroom"],
     ],
-    picture: "",
+    picture: Westride,
   },
 ];

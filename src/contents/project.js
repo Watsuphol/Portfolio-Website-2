@@ -38,7 +38,14 @@ export const data = [
       "· Full-Stack Development: Utilized the MERN stack (MongoDB, Express.js, React.js, Node.js) to build web applications, focusing on front-end UX/UI optimization and seamless back-end integration for efficient data management, payment processing, and dashboard functionalities",
       "· Project Management and Team Collaboration: Managed team projects using Trello and Stack, fostering a cooperative work environment with regular meetings, clear communication, and well-defined tasks to ensure smooth project progress.",
     ],
-    skills: [["React"]],
+    skills: [
+      ["React.js"],
+      ["React.js"],
+      ["Node.js"],
+      ["MongoDB"],
+      ["JavaScript"],
+      ["Tailwindcss"],
+    ],
     picture: PP,
   },
   {
@@ -55,7 +62,14 @@ export const data = [
       "· Implemented robust CRUD (Create, Read, Update, Delete) functionality for booking data, leveraging Express.js and Node.js to establish a seamless connection with a MongoDB database.",
       "· Designed and developed a user-centric interface with React.js and CSS, ensuring a smooth, intuitive user experience.",
     ],
-    skills: [["React"]],
+    skills: [
+      ["React.js"],
+      ["React.js"],
+      ["Node.js"],
+      ["MongoDB"],
+      ["JavaScript"],
+      ["Tailwindcss"],
+    ],
     picture: "",
   },
   {

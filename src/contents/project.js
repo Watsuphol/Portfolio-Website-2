@@ -16,6 +16,7 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import accout from "../asset/ac.gif";
+import admin from "../asset/AD.gif";
 import colmar from "../asset/CR.gif";
 import PP from "../asset/PP.gif";
 import react from "../asset/React.gif";
@@ -43,20 +44,20 @@ export const data = [
   },
   {
     date: "Jul 2024",
-    title: "Booking Hotels (Web application)",
-    link: "",
+    title: "Admin Dashboard (Mini-Project)",
+    link: "https://eotd-admin.vercel.app/",
     materials: [
       {
         type: faGithub,
-        link: "https://github.com/Watsuphol/Booking-Apps",
+        link: "https://github.com/JSD7-EOTD/Eotd-Admin",
       },
     ],
     descriptions: [
-      "· Implemented robust CRUD (Create, Read, Update, Delete) functionality for booking data, leveraging Express.js and Node.js to establish a seamless connection with a MongoDB database.",
+      "· Implemented robust CRUD (Create, Read, Update, Delete) functionality for e-commerce data, leveraging Express.js and Node.js to establish a seamless connection with a MongoDB database.",
       "· Designed and developed a user-centric interface with React.js and CSS, ensuring a smooth, intuitive user experience.",
     ],
     skills: [["React.js", "Node.js", "MongoDB", "JavaScript", "Tailwindcss"]],
-    picture: "",
+    picture: admin,
   },
   {
     date: "May 2024",
